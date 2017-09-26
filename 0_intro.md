@@ -9,7 +9,7 @@ sidebar_link: true
 > ## **[경희대학교](http://www.kyunghee.edu/)**
 >> [소프트웨어융합학과](http://swcon.khu.ac.kr/)
 
-![placeholder]({{ site.url }}/images/retr0.png/800x400" "Large example image")
+![placeholder]({{ site.url }}/images/retr0.png/800x400 "Large example image")
 <img src="{{ site.url }}/images/retr0.png" alt="retr0" style="width:40%;">
 
 <br>
