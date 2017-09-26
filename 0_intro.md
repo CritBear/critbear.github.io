@@ -4,10 +4,8 @@ title: Intro
 sidebar_link: true
 ---
 
-<div>
-  <img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="width:40%;">
-  <img src="{{ site.url }}/images/retr0.png" alt="retr0" style="width:40%;">
-</div>
+<img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="width:40%;">hi
+<img src="{{ site.url }}/images/retr0.png" alt="retr0" style="width:40%;">
 
 <br>
 
