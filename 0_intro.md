@@ -14,5 +14,5 @@ sidebar_link: true
 >> <img src="{{ site.url }}/images/retr0.png" alt="retr0" style="width:70%;">
 >> ## **[retr0](https://retr0.io/)**
 >>> 경희대 게임개발동아리
->>> Team : Hanzogak
 >>>
+>>> Team : Hanzogak
