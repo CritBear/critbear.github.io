@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            CritBear
 tagline:          'A blog'
-description:      'A student at <a href="http://www.kyunghee.edu" target="_blank">KyoungHee University</a> and belongs to the club <a href="https://retr0.io" target="_blank">retr0</a>'
+description:      'A student at <a href="http://www.kyunghee.edu" target="_blank">KyoungHee</a> University and belongs to the club <a href="https://retr0.io" target="_blank">retr0</a>'
 url:              https://critbear.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
