@@ -7,6 +7,7 @@ permalink:        pretty
 
 # Setup
 title:            CritBear
+tagline:          'blog'
 description:      'A student at <a href="http://www.kyunghee.edu" target="_blank">KyoungHee University</a> and belongs to the club <a href="https://retr0.io" target="_blank">retr0</a>'
 url:              https://critbear.github.io
 baseurl:          /
@@ -18,7 +19,7 @@ author:
 paginate:         5
 
 # Custom vars
-# version:          2.1.0
+version:          2.1.0
 
 github:
   repo:           https://github.com/CritBear/critbear.github.io
