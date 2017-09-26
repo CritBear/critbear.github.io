@@ -4,7 +4,10 @@ title: Intro
 sidebar_link: true
 ---
 
-<img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="float: center; width:70%;">
+# **김경민**
+> CritBear
+<br>
+<img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="float:center; width:70%;">
 <br>
 > ## **[경희대학교](http://www.kyunghee.edu/)**
 >> [소프트웨어융합학과](http://swcon.khu.ac.kr/)
