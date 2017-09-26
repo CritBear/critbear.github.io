@@ -4,7 +4,12 @@ title: Intro
 sidebar_link: true
 ---
 
-<img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="width:40%;">hi
+<img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="width:40%;">
+<br>
+> ## **[경희대학교](http://www.kyunghee.edu/)**
+>> [소프트웨어융합학과](http://swcon.khu.ac.kr/)
+
+![placeholder](https://placehold.it/800x400 "Large example image")
 <img src="{{ site.url }}/images/retr0.png" alt="retr0" style="width:40%;">
 
 <br>
