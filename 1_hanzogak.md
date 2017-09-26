@@ -17,4 +17,7 @@ retr0 소속 팀 Hanzogak이 진행중인 프로젝트로 지금은 임시로 'H
 
 ### 스킬 확장 예시
 <img src="{{ site.url }}/images/FallingStar_01.gif" alt="Skill Example01">
+위 스킬은 일정 범위 내의 모든 적을 공격하는 기술이다. 데미지는 적지만 약간의 넉백 효과가 있어 적의 공격을 끊을 때 사용될 것이라 생각한다.
+
 <img src="{{ site.url }}/images/FallingStar_02.gif" alt="Skill Example02">
+이는 충격파 특성을 가진 새 스킬을 얻었을 때 처음 스킬이 확장된 모습이다. 새 스킬의 30%에 해당하는 데미지가 추가되고 각각의 공격이 범위공격이 되어 다수를 상대할때 효과적이 되었다.
