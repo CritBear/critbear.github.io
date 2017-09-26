@@ -22,7 +22,7 @@
         {% if node.title != null %}
           {% if node.url contains "page" %}
 +            {% comment %} Do nothing {% endcomment %}
-+          {% else %}
++         {% else %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
