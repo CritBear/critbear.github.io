@@ -7,7 +7,7 @@ sidebar_link: true
 # **김경민**_CritBear
 >
 >
-> <img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="width:50%;">
+> <img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="width:50%;"> <br>
 > ## **[경희대학교](http://www.kyunghee.edu/)**
 >> [소프트웨어융합학과](http://swcon.khu.ac.kr/)
 >>
