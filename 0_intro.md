@@ -4,14 +4,12 @@ title: Intro
 sidebar_link: true
 ---
 
-<img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="width:40%;">
+<img src="{{ site.url }}/images/khu_logo.png" alt="khu_logo" style="width:100%;">
 <br>
 > ## **[경희대학교](http://www.kyunghee.edu/)**
 >> [소프트웨어융합학과](http://swcon.khu.ac.kr/)
 
-<a href="https://placeholder.com"><img src="https://github.com/CritBear/critbear.github.io/blob/master/images/khu_logo.png?raw=true/800x400"></a>
-![placeholder](https://github.com/CritBear/critbear.github.io/blob/master/images/khu_logo.png?raw=true/800x800 "Large example image")
-<img src="{{ site.url }}/images/retr0.png" alt="retr0" style="width:40%;">
+<img src="{{ site.url }}/images/retr0.png" alt="retr0" style="width:100%;">
 
 <br>
 
