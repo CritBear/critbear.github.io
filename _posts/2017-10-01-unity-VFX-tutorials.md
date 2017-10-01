@@ -10,7 +10,7 @@ tags:
   - paricle system
 ---
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-4by3">
   <iframe width="640" height="360" src="https://www.youtube.com/watch?v=pWxucHof_5A&t=1271s;" frameborder="0" allowfullscreen></iframe>
 </div>
 
