@@ -10,8 +10,8 @@ tags:
   - paricle system
 ---
 
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe width="640" height="360" src="https://www.youtube.com/watch?v=pWxucHof_5A&t=1271s;" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=pWxucHof_5A&t=1271s;" frameborder="0" allowfullscreen></iframe>
 </div>
 
 HanzogakRPG를 만들 떄 참고한 Unity VFX 튜토리얼 영상입니다.
