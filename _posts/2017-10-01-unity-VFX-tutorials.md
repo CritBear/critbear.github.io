@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe width='1080' height='760' src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+  <iframe width='1080' height='760' src="https://www.youtube.com/watch?v=pWxucHof_5A&t=1272s" frameborder="0" allowfullscreen></iframe>
 </div>
 
 HanzogakRPG를 만들 떄 참고한 Unity VFX 튜토리얼 영상입니다.
