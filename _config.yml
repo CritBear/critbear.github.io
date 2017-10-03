@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            CritBear
 tagline:          'A blog'
-description:      'A piece of cake'
+description:      '경희대 소프트웨어융합학과17 김경민'
 url:              https://critbear.github.io
 baseurl:          https://critbear.github.io
                   # the optional subpath of your site, e.g. "/blog"
