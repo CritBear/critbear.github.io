@@ -7,7 +7,8 @@ title:            CritBear
 tagline:          'A blog'
 description:      'A piece of cake'
 url:              https://critbear.github.io
-baseurl:          # the optional subpath of your site, e.g. "/blog"
+baseurl:          https://critbear.github.io
+                  # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
