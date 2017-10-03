@@ -1,7 +1,6 @@
 ---
 layout: category
 title: Hanzogak
-sidebar_link: true
 ---
 
 retr0 Team <br>
