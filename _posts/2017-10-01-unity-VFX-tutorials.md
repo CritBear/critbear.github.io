@@ -8,6 +8,7 @@ tags:
   - VFX
   - trail renderer
   - paricle system
+  - tutorial
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
