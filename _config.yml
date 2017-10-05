@@ -14,7 +14,7 @@ baseurl:          https://critbear.github.io
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
 
-disqus.shortname: 'critbear'
+disqus_shortname: 'critbear'
 
 author:
   name:           'Kim KyoungMin'
