@@ -4,7 +4,7 @@ title: Term-Project_Gravity
 ---
 
 # **Gravity**
-> 사용도구 : Unity
+> 사용도구 : Unity <br>
 > 목표 : 1인칭 어드벤처 퍼즐 게임
 
 <img src="{{ site.url }}/images/gravity_01.PNG" alt="gravity_01">
