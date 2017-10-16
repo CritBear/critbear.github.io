@@ -1,6 +1,6 @@
 ---
 layout: category
-title: [Term-Project]_Gravity
+title: Term-Project_Gravity
 ---
 
 # **Gravity**
