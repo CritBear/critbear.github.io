@@ -13,9 +13,7 @@ title: Term-Project_Gravity
 
 현재 Unity에 내장되어 있는 FPS Controller를 사용하고 있는데 기존 중력방향 이외는 잘 적용되지 않아서 Player를 제외한 나머지를 GameObject "World"의 하위로 넣고 World를 회전시켜 중력 변화를 표현하고 있다.
 
-이동은 마우스와 w, a, s, d를 사용하고, 중력 방향 변화는 q로 180도, e로 90도 회전시킨다.
-
-90도 회전은 네 방향으로 나누어 Player가 보고 있는 방향으로 회전시킨다.
+이동은 마우스와 w, a, s, d를 사용하고, 중력 방향 변화는 q로 180도, e로 90도 회전시킨다. 90도 회전은 네 방향으로 나누어 Player가 보고 있는 방향으로 회전시킨다.
 
 ```
 void OnChangeGravityForward()
