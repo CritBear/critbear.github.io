@@ -17,7 +17,7 @@ title: Term-Project_Gravity
 
 90도 회전은 네 방향으로 나누어 Player가 보고 있는 방향으로 회전시킨다.
 
-'''
+```
 void OnChangeGravityForward()
 {
     if (Input.GetKeyDown("e"))
@@ -41,5 +41,4 @@ void OnChangeGravityForward()
         }
     }
 }
-'''
-   
+```
