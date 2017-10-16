@@ -40,3 +40,5 @@ void OnChangeGravityForward()
     }
 }
 ```
+
+Unity Asset Store에서 skybox와 건물, 환경 3D model을 활용할 예정이다.
