@@ -7,10 +7,11 @@ title: Term-Project_Gravity
 > 사용도구 : Unity <br>
 > 목표 : 1인칭 어드벤처 퍼즐 게임
 
-<img src="{{ site.url }}/images/gravity_02.PNG" alt="gravity_02">
+<img src="{{ site.url }}/images/gravity_01.PNG" alt="gravity_01">
 
 중력의 방향을 바꾸면서 정해진 지점까지 가야 클리어되는 스테이지 형식의 게임을 만들 예정이다.
 
+<img src="{{ site.url }}/images/gravity_02.PNG" alt="gravity_02">
 
 현재 Unity에 내장되어 있는 FPS Controller를 사용하고 있는데 기존 중력방향 이외는 잘 적용되지 않아서 Player를 제외한 나머지를 GameObject "World"의 하위로 넣고 World를 회전시켜 중력 변화를 표현하고 있다.
 
