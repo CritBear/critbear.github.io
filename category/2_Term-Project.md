@@ -7,7 +7,6 @@ title: Term-Project_Gravity
 > 사용도구 : Unity <br>
 > 목표 : 1인칭 어드벤처 퍼즐 게임
 
-<img src="{{ site.url }}/images/gravity_01.PNG" alt="gravity_01">
 <img src="{{ site.url }}/images/gravity_02.PNG" alt="gravity_02">
 
 중력의 방향을 바꾸면서 정해진 지점까지 가야 클리어되는 스테이지 형식의 게임을 만들 예정이다.
