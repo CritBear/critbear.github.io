@@ -52,6 +52,8 @@ IEnumerator RotateWorld(Vector3 axis, float rotateAmount)
 
 그리고 회전시킬 때 실수를 줄일 수 있게 시각효과를 추가하기로 했다. RayCast를 사용해 90도 회전하고 착지할 부분에 파란색, 180도 회전하고 착지할 부분에 초록색 고리 모양의 이펙트가 실행되도록 했다. 이 기능은 x를 눌러 On/Off할 수 있다.
 
+<img src="{{ site.url }}/images/gravity_03.PNG" alt="gravity_03">
+
 Stage구상을 위해 Unity Asset Store에서 건물 3D model들과 도로, 기지 건설 키트를 받아왔다.
 
 앞으로 구현할 것은 StartRoom, GameManager, PlayerHealth, GoalArea, Stage 정도 있고 생각나면 더 만들지도 모르겠다.
