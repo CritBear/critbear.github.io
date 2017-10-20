@@ -48,7 +48,7 @@ IEnumerator RotateWorld(Vector3 axis, float rotateAmount)
     if (step > 1.0) transform.RotateAround(transform.position, axis, rotateAmount * (1.0f - lastStep));
 }
 ```
-> [easing a rotation of ROTATE AROUND](http://answers.unity3d.com/questions/29110/easing-a-rotation-of-rotate-around.html) 참조
+> [Question: easing a rotation of ROTATE AROUND](http://answers.unity3d.com/questions/29110/easing-a-rotation-of-rotate-around.html) 참조
 
 그리고 회전시킬 때 실수를 줄일 수 있게 시각효과를 추가하기로 했다. RayCast를 사용해 90도 회전하고 착지할 부분에 파란색, 180도 회전하고 착지할 부분에 초록색 고리 모양의 이펙트가 실행되도록 했다. 이 기능은 x를 눌러 On/Off할 수 있다.
 
