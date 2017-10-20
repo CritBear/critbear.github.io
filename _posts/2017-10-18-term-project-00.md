@@ -28,7 +28,7 @@ void OnChangeGravityUp()
     }
 }
 ```
-RotateAround를 Slerp형태로 회전시키기 위해서 RotateWorld는 이렇게 만들었다.
+GravityZero()는 World가 회전하는 시간동안 중력이 작용하지 않도록 한 것이고, RotateAround를 Slerp형태로 회전시키기 위해서 RotateWorld()는 이렇게 만들었다.
 ```
 IEnumerator RotateWorld(Vector3 axis, float rotateAmount)
 {
