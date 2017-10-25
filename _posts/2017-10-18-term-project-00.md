@@ -2,7 +2,7 @@
 layout: post
 title: "Term-Project: 개발일지 00"
 categories:
-  - Term-Project_Gravity
+  - Term-Project
 tags:
   - term-project
   - unity
