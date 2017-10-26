@@ -38,3 +38,5 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 github:
   repo:             https://github.com/CritBear
+
+google_analytics_id: UA-108723742-1
