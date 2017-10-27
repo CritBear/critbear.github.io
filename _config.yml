@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            CritBear
-tagline:          'A blog'
+tagline:          'blog'
 description:      '경희대 소프트웨어융합17 김경민'
 url:              https://critbear.github.io
 baseurl:          https://critbear.github.io
