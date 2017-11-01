@@ -11,6 +11,7 @@ tags:
 이번에는 Stage1을 튜토리얼로 만들고 낙하데미지를 구현하였다. 그리고 GameManager에 필요한 것들을 거의 다 넣었다.
 
 우선 튜토리얼이다. 도움말은 UI로 Canvas에 띄우지 않고 World에 넣었다.
+
 <img src="{{ site.url }}/images/gravity_06.PNG" alt="gravity_06">
 
 <img src="{{ site.url }}/images/gravity_07.PNG" alt="gravity_07">
