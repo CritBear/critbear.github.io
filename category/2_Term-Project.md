@@ -7,6 +7,8 @@ title: Term-Project
 > 사용도구 : Unity <br>
 > 목표 : 1인칭 어드벤처 퍼즐 게임
 
+**Demo: Gravity_0.5.0 [드롭박스 링크](https://www.dropbox.com/s/upb9prx65zdqps1/Gravity_0.5.0.zip?dl=0&m=)**
+
 <img src="{{ site.url }}/images/gravity_01.PNG" alt="gravity_01">
 
 중력의 방향을 바꾸면서 정해진 지점까지 가야 클리어되는 스테이지 형식의 게임을 만들 예정이다.
