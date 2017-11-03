@@ -10,7 +10,7 @@ sidebar_link: true
 
 경희대학교 소프트웨어융합학과에 재학중인 17학번 김경민입니다. 경희대 게임개발동아리 retr0 구성원이며 현재 팀 Hanzogak에서 활동중입니다.
 
-닉네임으로 CritBear를 씁니다.
+닉네임으로 CritBear를 씁니다. email: kgm031189@gmail.com
 
 > **[경희대학교](http://www.kyunghee.edu/)**
 >
