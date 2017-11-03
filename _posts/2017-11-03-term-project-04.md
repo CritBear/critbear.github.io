@@ -26,7 +26,7 @@ tags:
 남은 HP에 따라 달라지도록 두 개를 더 그렸다.
 
 <img src="{{ site.url }}/images/gravity_14.PNG" alt="gravity_14">
-HP가 100~70일떄, 이미지의 health는 디버깅을 위해 넣은 걸로 상관없다.
+HP가 100~70일때, 이미지의 health는 디버깅을 위해 넣은 걸로 상관없다.
 
 <img src="{{ site.url }}/images/gravity_15.PNG" alt="gravity_15">
 Hp가 70~30일때
