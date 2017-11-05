@@ -22,4 +22,6 @@ tags:
 
 8면을 채웠을 때 한 층이 올라가며 왼쪽, 아래, 오른쪽 화살표만을 이용하여 플레이합니다.
 
-실행파일은 [드롭박스 링크](https://www.dropbox.com/s/x8c2w6p8ym01m3z/BabelTower.zip?dl=0&m=)를 통해 받아가실 수 있습니다.
+실행파일은 드롭박스 링크를 통해 받아가실 수 있습니다.
+
+https://www.dropbox.com/s/x8c2w6p8ym01m3z/BabelTower.zip?dl=0&m=
