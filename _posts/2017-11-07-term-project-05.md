@@ -9,6 +9,7 @@ tags:
 ---
 
 친구에게 테스트를 부탁해 버그들과 개선해야 될 곳들을 찾았다.
+
 [https://www.dropbox.com/sh/cso6hbo7elzu9ao/AADxb4jeLpZXikd-pAq3ONXaa?dl=0](https://www.dropbox.com/sh/cso6hbo7elzu9ao/AADxb4jeLpZXikd-pAq3ONXaa?dl=0)
 
 <img src="{{ site.url }}/images/gravity_17.PNG" alt="gravity_17">
