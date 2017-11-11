@@ -23,6 +23,6 @@ tags:
 
 프로젝트에 대한 자세한 설명은 현성이의 홈페이지를 참조해주세요.
 
-용량이 커 GitHub에 프로젝트 전부를 올리지는 못하고 스크립트만 따로 올립니다. 
+에셋 용량이 커 GitHub에 프로젝트 전부를 올리지는 못하고 스크립트만 따로 올립니다. 
 
 [Retr0-Hanzogak/HanzogakRPG_Scripts - GitHub](https://github.com/Retr0-Hanzogak/HanzogakRPG_Scripts)
