@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unity: 가리왕산 키우기
+title: "Unity: 가리왕산 키우기"
 categories:
   - Unity
 tags:
