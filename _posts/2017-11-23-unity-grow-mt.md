@@ -10,7 +10,7 @@ tags:
   - play store
 ---
 
-<img src="{{ site.url }}/images/growmt_01.PNG" alt="growmt_01">
+<img src="{{ site.url }}/images/growmt_01.png" alt="growmt_01">
 
 이번 시민교육 주제로 키우기 게임을 만들어보았습니다.
 
