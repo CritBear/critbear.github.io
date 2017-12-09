@@ -14,7 +14,8 @@ tags:
 
 12/10 Term-Project 최종 데모
 
-실행파일 드롭박스 링크 [https://goo.gl/2PF1Yo](https://goo.gl/2PF1Yo)
+실행파일 드롭박스 링크 [https://goo.gl/2PF1Yo](https://goo.gl/2PF1Yo) <br>
+소스코드 [GitHub](https://github.com/CritBear/Gravity)
 
 중간 데모 후 몇 가지를 수정하고 4개의 스테이지를 구상해보았습니다.
 
