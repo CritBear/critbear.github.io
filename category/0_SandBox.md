@@ -4,4 +4,4 @@ title: SandBox
 ---
 
 Let's dev HTML Games!
-**[Practice 1](https://www.dropbox.com/sh/cso6hbo7elzu9ao/AADxb4jeLpZXikd-pAq3ONXaa?dl=0)**
+**[Practice 1](https://critbear.github.io/SandBox/index.html)**
