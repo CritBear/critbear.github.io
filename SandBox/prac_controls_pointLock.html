@@ -124,8 +124,15 @@
 				scene.background = new THREE.Color( 0x000 );
 				scene.fog = new THREE.Fog( 0x000000, 0, 750 );
 				
+				var geo = new THREE.SphereBufferGeometry( 2, 16, 8 );
+				var mat = new THREE.MeshStandardMaterial( {
+					emissive: 0xffffee,
+					emissiveIntensity: 1,
+					color: 0x000000
+				} );
 				var spotLight = new THREE.SpotLight( 0xffffff, 1 );
-				spotLight.position.set( 5, 0, 100 );
+				spotLight.add( new THREE.Mesh( geo, mat ) );
+				spotLight.position.set( 0, 100, 0 );
 				spotLight.angle = Math.PI / 4;
 				spotLight.penumbra = 0.5;
 				spotLight.decay = 2;
@@ -137,7 +144,8 @@
 				spotLight.shadow.camera.near = 10;
 				spotLight.shadow.camera.far = 200;
 				scene.add( spotLight );
-
+				var ambientLight = new THREE.AmbientLight( 0xffffff, 0.8 );
+				scene.add( ambientLight );
 				controls = new THREE.PointerLockControls( camera );
 				scene.add( controls.getObject() );
 				
@@ -212,7 +220,6 @@
 				var floorMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors } );
 				var floor = new THREE.Mesh( floorGeometry, floorMaterial );
 				scene.add( floor );
-
 				// objects
 				var boxGeometry = new THREE.BoxBufferGeometry( 20, 20, 20 );
 				boxGeometry = boxGeometry.toNonIndexed(); // ensure each face has unique vertices
