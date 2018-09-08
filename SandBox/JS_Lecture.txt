@@ -1,0 +1,71 @@
+Lecture5 javascript 구동원리
+
+브라우저 javascript
+
+<script> <div>...
+브라우저는 위에서부터 하나씩 태그를 실행한다.
+스크립트의 동작이 끝날 때까지 밑의 HTML태그는 렌더링되지 않는다.
+
+JS 엔진과 렌더링 엔진이 일을 주고받을 때마다 코스트 발생
+javascript 만들 때 하나의 스크립트에 몰어넣어주는 것이 성능이 더 좋다.
+
+<script>의 위치도 중요하다.
+보통은 맨 아래쪽에 두는 것이 효율적이다.
+
+script는 별도의 외부 파일로 빼주는 것이 좋다.
+변화가 없으면 한 번 가져온 것 계속 사용
+
+
+1. javascript 만들 때 하나의 스크립트에 몰어넣어주는 것이 성능이 더 좋다.
+2. script 태그는 맨 아래에 두는 것이 좋다.
+3. script는 별도의 외부 파일로 빼주는 것이 좋다.
+
+
+
+
+
+Lecture6 구문과 표현식
+
+//expression
+console.log(doA);
+
+//statement
+function doA() {
+
+}
+
+-------------------------
+
+//expression
+var doA = function() {
+
+};
+
+구문(statements) : 코드의 해석에 필요한 틀 -> 선언문
+표현식(expression) : 결과를 만들어 내는 코드의 조각 -> 연산, () 실행식
+
+표현식들이 모여 구문 이룬다.
+해석단계는 구문 처리
+실행할때는 식 처리
+
+example)
+
+//statement
+var x;
+if(y >= 0) {
+	x = y;
+} else {
+	x = -y;
+}
+
+//expression
+var x = (y >= 0 ? y : -y);	-> 해석될 동작하는게 아니라 실행할 때 동작
+				메모리만 차지하는 상태, undefined
+
+
+
+
+Lecture7 DOM, BOM
+
+Browser Object Model -> windows
+Document Object Model -> document
