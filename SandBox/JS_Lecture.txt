@@ -69,3 +69,17 @@ Lecture7 DOM, BOM
 
 Browser Object Model -> windows
 Document Object Model -> document
+
+브라우저,이벤트 루프에서 감지 -> JS엔진,이벤트리스너(이벤트핸들러)
+while(queue.waitForMessage()){
+	queue.processNextMessage();
+}
+
+Event 
+Event Loop은 개발자가 신경쓰지 않는다.
+Event Handler, Listener등록
+
+
+
+
+Lecture8
