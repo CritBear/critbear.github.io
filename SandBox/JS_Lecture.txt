@@ -1,3 +1,9 @@
+js bin, jsfiddle.net 편함
+JSLint : 코드를 표준대로 썼는지 검사하는 도구
+
+삼항연산자 쓰는 게 좋다 ( 삼항연산자는 ===, type까지 )
+
+
 Lecture5 javascript 구동원리
 
 브라우저 javascript
@@ -82,4 +88,44 @@ Event Handler, Listener등록
 
 
 
-Lecture8
+Lecture8 JS 이벤트 처리에 대해
+
+Bubbling, Capturing
+이벤트는 '목적어'처럼
+
+이벤트 처리 모델
+- 인라인 이벤트 모델 -> <p onclick="test">...</p> //태그 안에 넣는 것
+- DOM Level2 -> target.addEventListener(type, listener[, ...], false//Capturing//);
+- DOM Level3
+
+2,3 -> javascript가 모든 동작 처리
+
+jQuery (jquery.com / ui, mobile...)
+-> 크로스 브라우징 문제를 처리하기 위해(브라우저마다 표준이 다름)
+-> DOM 핸들링이 편함
+-> 라이브러리가 방대함
+-> 이벤트처리에 강하다
+
+
+
+---------------------------------------------------------------------------
+Lecture9 함수와객체1-선언문과 표현식
+
+함수는 1st 객체
+javascript에서는 함수와 메소드의 경계가 모호
+
+hoisting
+-> 함수내의 변수들이'{}'에 관계없이 동일한 스코프
+
+function doA( fn ) {
+	var v1 = 10;
+	var v2 = function() {
+		v1++;
+		console.log(v1);
+		fn( );
+	};
+	v2( );
+}
+
+//함수를 값으로 전달
+doA( function(num) { console.log("BBBB" + num); } );
