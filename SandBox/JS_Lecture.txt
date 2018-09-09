@@ -129,3 +129,57 @@ function doA( fn ) {
 
 //함수를 값으로 전달
 doA( function(num) { console.log("BBBB" + num); } );
+
+
+
+
+Lecture10 함수와객체-2-함수의 컨텍스트
+
+스코프 체인
+-> 함수가 만들어질때 같이 만들어지는 메모리 영역
+-> key, value
+
+this : 주체, 메모리의 시작점
+-> 함수 안에서 썼을 때 : 그 함수를 호출한 주체(기본상태에서는 window)
+
+* 중첩함수에서
+example)
+function doA() {
+	var sum = 0;
+	var doB = function() {
+		console.log(sum);
+		console.log(this.sum);
+	};
+	doB();
+}
+var sum = 100;
+var obj = { sum: 10000 };
+doA.apply(obj);
+
+output) 0, 100
+* 중첩함수는 window가 실행한다.
+
+* +꼼수
+example)
+function doA() {
+	var sum = 0;
+	var self = this;
+	var doB = function() {
+		console.log(sum);
+		console.log(self.sum);
+	};
+	doB();
+}
+var sum = 100;
+var obj = { sum: 10000 };
+doA.apply(obj);
+
+output) 0, 10000
+
+javascript에서 this가 나오면 무엇이 주체인지 생각해봐야 한다.
+
+
+
+
+Lecture11 함수와객체3-클로저
+
