@@ -183,3 +183,101 @@ javascript에서 this가 나오면 무엇이 주체인지 생각해봐야 한다
 
 Lecture11 함수와객체3-클로저
 
+클로저
+-> 함수의 실행 후에도 상태를 유지하는 기법
+-> 함수 내부 변수를 외부에서 참조하는 수단
+
+example)
+function makeFunc() {
+	var name = "Mozilla";
+	function displayName() {
+		alert(name);
+	}
+	return displayName;
+}
+var myFunc = makeFunc();
+myFunc();
+
+* 객체처럼 쓰기
+example)
+function Counter() {
+	var count = 0;
+	var check = function() {
+		console.log( ++count );
+	};
+	return check;
+}
+var checker = Counter();
+checker();
+checker();
+checker();
+checker();
+checker();
+
+output) 1,2,3,4,5
+
+
+
+
+Lecture12 함수와객체4-클로저와 모듈패턴
+
+클로저 특징
+-> 참조하는 대상이 지워지지 않는 단점
+-> 전역변수를 안 쓸 수 있다.
+-> 중첩함수를 통해 접근
+-> 즉시실행함수와 결합
+
+example)
+var calculator = (function() {
+	var sum = 0;
+	var add = function(num) {
+		sum += num;
+	};
+	var show = function() {
+		console.log(sum);
+	};
+	return {add:add, show:show};
+}());
+
+calculator.add(10);
+calculator.add(20);
+calculator.add(30);
+calculator.add(40);
+calculator.show();
+
+output) 100
+-> calculator.sum 은 외부에서 접근할 수 없다.(보안+)
+
+
+
+
+Lecture13 함수와객체5-객체리터럴,prototype
+
+중요* 객체의 context - this
+obj.v1 , obj['v1']
+
+* 겉보기에는 클래스 언어들과 유사하지만 내부 동작은 다르다.
+example)
+function Person() {
+}
+var p1 = new Person();
+
+모든 함수에는 prototype속성이 붙는다.
+함수의 프로톼입 객체 -> 객체들간의 공유
+
+new 단계
+-> 메모리상에 비어있는 공간을 만든다
+-> Person 함수(함수의 프로토타입 객체)를 가져온다.
+-> 그 함수의 this라는 컨텍스트가 방금 만든 메모리 공간을 가리키토록 바꾼다.
+
+* 생성된 객체에 모두 추가되는 거라면 프로토타입 객체에 추가
+example)
+function Person( ssn ) {
+	this.ssn = ssn;
+}
+Person.prototype.display = function() {
+	console.log('display...' + this.ssn);
+};
+
+var p1 = new Person('1');
+var p2 = new Person('2');
