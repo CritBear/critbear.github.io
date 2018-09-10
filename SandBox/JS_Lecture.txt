@@ -281,3 +281,64 @@ Person.prototype.display = function() {
 
 var p1 = new Person('1');
 var p2 = new Person('2');
+
+
+
+
+
+Lecture14 이벤트와 객체지향1-모듈패턴과 이벤트
+
+//모델 -> 서비스
+
+모듈패턴
+-? 단일객체, 상속 기능X, 접근제한(클로저)
+example)
+var memoService = (function() {
+	//외부접근 불가
+	var memoList = [];
+	return {
+		add: function( newmemo ) {
+			console.log('add', newmemo);
+			memoList.push(newmemo);},
+		//clone처리 생략
+		list: function( ) { return memoList; },
+		clear: function ( ) { memoList = []; }
+	};
+}());
+
+var memoInput = document.getElementById("memoInput");
+var memoListUl = document.getElementById("memoListUl");
+var clearBtn = document.getElementById("clearList");
+
+memoInput.addEventListener("change", function() {
+	
+	memoService.add(this.value);
+	
+	var refreshevent = new Event("refreshUl");
+	memoListUl.dispatchEvent(refreshEvent);
+	
+	this.value="";
+});
+
+memoListUl.addEventListener("refreshUl", function( event ) {
+	
+	console.log("refresh");
+	
+	var memoListData = memoService.list();
+	
+	memoListUl.innerHTML - "";
+	
+	var str = "";
+	for(var i=0, len = memoListData.length; i < len; i++) {
+		console.log(memoListData[i]);
+		str += "<li>" + memoListData[i] + "</li>";
+	}
+	memoListUl.innerHTML = str;
+}, false);
+
+clearBtn.addEventListener("click", function() {
+	memoService.clear();
+	
+	var refreshEvent = new Event("refreshUl");
+	memoListUl.dispatchEvent(refreshEvent);
+},false);
