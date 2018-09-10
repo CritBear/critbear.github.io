@@ -342,3 +342,80 @@ clearBtn.addEventListener("click", function() {
 	var refreshEvent = new Event("refreshUl");
 	memoListUl.dispatchEvent(refreshEvent);
 },false);
+
+
+
+
+Lecture15 이벤트와 객체지향2-커스텀이벤트와 객체지향
+example)
+			var memoModel = (function(){
+	
+			var memoList = [];
+			
+			return {
+				//event 전송 대상 설정 
+				setView:function(view){
+					this.view = view;
+				},
+				
+				add:function ( newmemo ) {
+						console.log('add', newmemo); 
+						memoList.push(newmemo);
+						//갱신
+						this.refresh();
+				},
+				
+				list:function ( ) {	},
+				
+				clear: function () { 
+					memoList = [];
+					//갱신
+					this.refresh(); 
+				},
+				
+				refresh:function() {
+					
+					var evt = new CustomEvent("refreshUl",  {detail: {"memoList": memoList}});
+					
+					console.log(evt.memolist);
+					
+					this.view.dispatchEvent(evt);
+				}
+			};
+			
+		}());
+		
+		var memoInput = document.getElementById("memoInput");
+		var memoListUl = document.getElementById("memoListUl");
+		var clearBtn = document.getElementById("clearList");
+		
+		memoModel.setView(memoListUl);
+		
+		memoInput.addEventListener("change", function(){
+			
+			memoModel.add(this.value);
+			
+			this.value="";
+			
+		});
+		
+		memoListUl.addEventListener("refreshUl", function(event){
+			
+			var memoListData = event.detail.memoList;
+			
+			memoListUl.innerHTML ="";
+			
+			var str ="";
+			for(var i=0, len = memoListData.length; i < len; i++){
+				console.log(memoListData[i]);
+				str += "<li>" + memoListData[i] +"</li>";	
+			}
+			memoListUl.innerHTML = str;
+			 
+		},false);
+		
+		clearBtn.addEventListener("click", function(){
+			
+			memoModel.clear();
+			
+		},false);
