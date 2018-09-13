@@ -1,0 +1,38 @@
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+function factorial(num) {
+ var sum = 1;
+ for( var i=2; i <= num; i++) {
+  sum *= i;
+ }
+ return sum;
+}
+
+function permutation(n, isSecond) {
+ var two = -1;
+ for(var i=n; i >= 0; i-=2) {
+  var count = 0;
+  two++; 
+  count += factorial(i+two) / factorial(i) / factorial(two);
+  document.write("i : "+i+", count : "+count+", isSecond : "+isSecond+"<br>");
+
+
+ }
+ if( !isSecond ) {
+  count -= permutation(Math.floor(n/2), true);
+ }
+ return count; 
+}
+function main() {
+ var n = 4;
+ alert(permutation(n, false));
+}
+</html>
+</html>
+</html>
+</html>
+
