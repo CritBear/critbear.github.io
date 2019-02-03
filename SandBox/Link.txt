@@ -6,3 +6,6 @@ http://www.threejsgames.com/extensions/
 
 //Learning Link
 https://www.youtube.com/watch?v=UUilwGxIj_Q&index=3&list=PLCTVwBLCNozSGfxhCIiEH26tbJrQ2_Bw3
+
+//Javascript DesignPattern
+https://www.zerocho.com/category/JavaScript?page=3
