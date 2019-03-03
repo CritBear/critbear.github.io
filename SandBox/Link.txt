@@ -9,3 +9,6 @@ https://www.youtube.com/watch?v=UUilwGxIj_Q&index=3&list=PLCTVwBLCNozSGfxhCIiEH2
 
 //Javascript DesignPattern
 https://www.zerocho.com/category/JavaScript?page=3
+
+//3d animationhttps://github.com/CritBear/critbear.github.io/tree/master/SandBox
+https://www.mixamo.com/
