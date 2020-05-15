@@ -52,8 +52,8 @@ var towerInfo = {
 	},
 
 	basicBullet: {
-		width: 70,
-		height: 3,
+		width: 100,
+		height: 30,
 		radius: 3,
 		speed: 30,
 		image: new Image(),
@@ -90,7 +90,7 @@ var towerInfo = {
 	railGunBullet: {
 		width: 50,
 		height: 30,
-		radius: 3,
+		radius: 5,
 		speed: 50,
 		range: 30,
 		image: new Image(),
@@ -182,7 +182,7 @@ var towerInfo = {
 		range: 200,
 		rate: 100,
 		cost: 1070,
-		radius: 40,
+		radius: 50,
 		image: new Image(),
 		bullet: "icicleBullet",
 	},
@@ -203,20 +203,20 @@ var effectInfo = {
 	},
 
 	fire_01: {
-		width: 70,
-		height: 30,
+		width: 50,
+		height: 10,
 		duration: 20,
 		image: new Image(),
 	},
 	fire_02: {
-		width: 70,
-		height: 30,
+		width: 100,
+		height: 100,
 		duration: 20,
 		image: new Image(),
 	},
 	hit_01: {
-		width: 100,
-		height: 100,
+		width: 250,
+		height: 250,
 		duration: 10,
 		image: new Image(),
 	},
