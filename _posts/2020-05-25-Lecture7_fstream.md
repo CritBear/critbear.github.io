@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Object Oriented Programming #7"
+categories:
+  - SandBox
+tags:
+  - Note
+---
+
 # Lecture #7. fstream
 
 ### 1. 라이브러리
