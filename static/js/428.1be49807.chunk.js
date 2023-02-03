@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkiiixrlab=self.webpackChunkiiixrlab||[]).push([[428],{428:function(i,u,r){r.r(u);r(2791);var e=r(184);u.default=function(){return(0,e.jsx)("group",{})}}}]);
+//# sourceMappingURL=428.1be49807.chunk.js.map
