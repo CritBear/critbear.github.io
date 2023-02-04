@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/428.1be49807.chunk.js","mappings":"oIAWA,UARe,WACb,OACE,oBAIJ,C","sources":["app/pages/home/LoadingTest.tsx"],"sourcesContent":["import React, { FC } from 'react'\r\nimport * as THREE from 'three';\r\n\r\nconst TC: FC = () => {\r\n  return (\r\n    <group>\r\n      \r\n    </group>\r\n  )\r\n}\r\n\r\nexport default TC"],"names":[],"sourceRoot":""}
