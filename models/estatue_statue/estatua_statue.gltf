@@ -69,7 +69,8 @@
       "buffer": 0,
       "byteLength": 96108,
       "name": "floatBufferViews",
-      "target": 34963
+      "target": 34963,
+      "byteOffset": 0
     },
     {
       "buffer": 0,
@@ -90,13 +91,13 @@
   ],
   "buffers": [
     {
-      "byteLength": 313676,
-      "uri": "scene.bin"
+      "uri": "estatua_statue_data.bin",
+      "byteLength": 313676
     }
   ],
   "images": [
     {
-      "uri": "textures/Stone_-_Granite_Italian_Rough_baseColor.jpeg"
+      "uri": "estatua_statue_img0.jpg"
     }
   ],
   "materials": [
@@ -107,7 +108,7 @@
         "baseColorTexture": {
           "index": 0
         },
-        "metallicFactor": 0.0,
+        "metallicFactor": 0,
         "roughnessFactor": 0.6
       }
     }
@@ -135,22 +136,22 @@
         1
       ],
       "matrix": [
-        1.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
+        1,
+        0,
+        0,
+        0,
+        0,
         2.220446049250313e-16,
-        -1.0,
-        0.0,
-        0.0,
-        1.0,
+        -1,
+        0,
+        0,
+        1,
         2.220446049250313e-16,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        1.0
+        0,
+        0,
+        0,
+        0,
+        1
       ],
       "name": "Sketchfab_model"
     },
